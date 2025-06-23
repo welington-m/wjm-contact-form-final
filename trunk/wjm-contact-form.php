@@ -1,10 +1,20 @@
 <?php
+<?php
 /*
-Plugin Name: WJM Contact Form
-Description: Plugin de contato com arquitetura limpa
-Version: 1.2
-Author: Welington Miyazato
-*/
+ * Plugin Name:       WJM Contact Form
+ * Plugin URI:        https://github.com/welingtonmiyazato/wjm-contact-form
+ * Description:       Plugin de formulário de contato com editor visual e gerenciador de mensagens.
+ * Version:           1.0.0
+ * Requires at least: 5.5
+ * Requires PHP:      7.4
+ * Author:            Welington Jose Miyazato
+ * Author URI:        https://welington.dev
+ * License:           GPL v2 or later
+ * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain:       wjm-contact-form
+ * Domain Path:       /languages
+ */
+
 
 // Autoload
 if (file_exists(__DIR__ . '/vendor/autoload.php')) {
