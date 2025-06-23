@@ -1,5 +1,4 @@
 <?php
-<?php
 /*
  * Plugin Name:       WJM Contact Form
  * Plugin URI:        https://github.com/welingtonmiyazato/wjm-contact-form
