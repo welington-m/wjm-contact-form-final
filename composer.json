@@ -1,0 +1,23 @@
+{
+  "name": "wjm/contact-form",
+  "description": "Plugin de formulário de contato para WordPress seguindo Clean Architecture.",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Welington Jose Miyazato",
+      "email": "seuemail@exemplo.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "UseCases\\": "trunk/UseCases/",
+      "Entities\\": "trunk/Entities/",
+      "ValueObjects\\": "trunk/ValueObjects/",
+      "Services\\": "trunk/Services/",
+      "Repositories\\": "trunk/Repositories/"
+    }
+  }
+}
